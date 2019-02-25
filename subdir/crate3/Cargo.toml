@@ -1,6 +1,7 @@
 [package]
-name = "crate4"
+name = "crate3"
 version = "0.1.0"
 authors = ["Nikita Chashchinskii <nikita.chashchinskii@gmail.com>"]
 
 [dependencies]
+libc = "0.1.0"

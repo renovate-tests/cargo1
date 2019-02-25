@@ -3,13 +3,13 @@ name = "workspace_ex"
 version = "0.1.0"
 authors = ["Nikita Chashchinskii <nikita.chashchinskii@gmail.com>"]
 
-[dependencies]
-crate4 = { path = "crate4", version = "0.1.0" }
-crate5 = { path = "crate5", version = "0.1.0" }
-
 [workspace]
 members = [
     "crate1",
     "crate2",
-    "crate3"
+    "subdir/crate3"
 ]
+
+[dependencies]
+crate4 = { path = "subdir/crate4", version = "0.1.0" }
+crate5 = { path = "crate5", version = "0.1.0" }

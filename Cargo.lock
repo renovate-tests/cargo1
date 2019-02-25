@@ -1,0 +1,28 @@
+[[package]]
+name = "crate1"
+version = "0.1.0"
+
+[[package]]
+name = "crate2"
+version = "0.1.0"
+
+[[package]]
+name = "crate3"
+version = "0.1.0"
+
+[[package]]
+name = "crate4"
+version = "0.1.0"
+
+[[package]]
+name = "crate5"
+version = "0.1.0"
+
+[[package]]
+name = "workspace_ex"
+version = "0.1.0"
+dependencies = [
+ "crate4 0.1.0",
+ "crate5 0.1.0",
+]
+

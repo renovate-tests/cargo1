@@ -4,4 +4,4 @@ version = "0.1.0"
 authors = ["Nikita Chashchinskii <nikita.chashchinskii@gmail.com>"]
 
 [dependencies]
-env_logger = "0.3.0"
+env_logger = "0.7.1"
